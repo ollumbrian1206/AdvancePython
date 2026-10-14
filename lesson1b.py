@@ -45,6 +45,11 @@ list2 = ["Xiaomi", "Oppo", "Vivo"]
 thelist = list1 + list2
 print(thelist)
 
+# Below is a list inside of another list.
+list2 = [["James", "Tony","Bernard", "Jeremiah"], ["Joyce", "Mary", "Oscar", "Martha"], ["Brian", "Edward","Joseph", "Linet"]]
+
+print(list2[2][0])
+
 # 4. Tuple - This is an immutable type of list ie It is unchangeable. The way you define a tuple at first remains the same up to the end.
 """Introduced by use of parentheses instead of square brackets."""
 presidents = ("Uhuru", "Ruto", "Yoweri", "Mnagangwa", "Ramaphosa")
